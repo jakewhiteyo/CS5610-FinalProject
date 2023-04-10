@@ -1,0 +1,40 @@
+﻿  Source.cpp
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(687,54): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(705,35): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(706,39): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(730,37): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(747,38): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(3726,78): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(4729,33): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(4998,60): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5003,83): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5004,94): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5005,83): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5006,94): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5007,83): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5008,94): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5009,78): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5204,3): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5228,7): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5262,62): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5279,3): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5301,57): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5332,57): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5445,57): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5559,33): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(75,39): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(76,41): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(143,47): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(227,31): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(228,31): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(229,31): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(230,31): warning C4305: '-=': truncation from 'double' to 'float'
+  CS5610-FinalProject.vcxproj -> C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\x64\Debug\CS5610-FinalProject.exe
