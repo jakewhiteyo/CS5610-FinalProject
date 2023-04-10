@@ -22,19 +22,20 @@ C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5301,
 C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5332,57): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5445,57): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
 C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\lodepng\lodepng.cpp(5559,33): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
-C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(75,39): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(42,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(78,39): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ]
-C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(76,41): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(79,41): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ]
-C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(143,47): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(227,31): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(228,31): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(229,31): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(230,31): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(151,47): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(234,31): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(235,31): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(236,31): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\CS5610-FinalProject\Source.cpp(237,31): warning C4305: '-=': truncation from 'double' to 'float'
   CS5610-FinalProject.vcxproj -> C:\Users\jakew\source\repos\CS5610\CS5610-FinalProject\x64\Debug\CS5610-FinalProject.exe

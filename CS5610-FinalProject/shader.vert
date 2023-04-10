@@ -16,7 +16,7 @@ out vec3 normal;
 out vec3 diffuse;
 out vec3 specular;
 out vec3 ambientVec;
-out vec3 potColor;
+out vec3 texColor;
 out vec2 texCoord;
 
 void main()
@@ -28,7 +28,7 @@ void main()
     diffuse = color * max(dot(normalize(normal), normalize(lightPos)), 0.0);
     specular = white * pow(max(dot(normalize(normal), normalize(normalize(lightPos) + normalize(-view))), 0.0), 2);
     gl_Position = mvp * vec4(pos * 0.09, 1);
-    potColor = color;
+    texColor = color;
     ambientVec = ambient;
     texCoord = vec2(tex.x, 1.0 - tex.y);
 }

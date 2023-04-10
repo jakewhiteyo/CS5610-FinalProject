@@ -19,6 +19,7 @@ cy::TriMesh mesh; // .obj mesh
 std::vector<cy::Vec3f> vertices;
 std::vector<cy::Vec3f> normals;
 std::vector<cy::Vec3f> textures;
+cy::Vec3f textureColor;
 GLuint objVao;
 std::vector<unsigned char> image; //the raw pixels
 unsigned texWidth, texHeight;
@@ -36,6 +37,9 @@ float scale = 11;
 bool leftMouseDown = false;
 bool rightMouseDown = false;
 float inc = 0;
+
+// watercolor 
+float strokeWeight = 0.4;
 
 cyVec3f cameraPos = cyVec3f(0, 2, 1);
 
@@ -70,13 +74,17 @@ void createMatrices() {
 }
 
 void createLighting() {
-	std::cout << yRot << std::endl;
-	cyVec3f lightPos = cyVec3f(yRot * 0.05, 3, 0);
+ 	cyVec3f lightPos = cyVec3f(yRot * 0.05, 3, 0);
 	cyVec3f white = cyVec3f(0.7, 0.7, 0.7);
 	cyVec3f ambient = cyVec3f(0.3, 0.3, 0.3);
 	objProgram["lightPos"] = lightPos;
 	objProgram["white"] = white;
 	objProgram["ambient"] = ambient;
+	glutPostRedisplay();
+}
+
+void waterColorEffects() {
+	objProgram["strokeWeight"] = strokeWeight;
 	glutPostRedisplay();
 }
 
@@ -163,6 +171,8 @@ void myDisplay() {
 
 	createLighting();
 
+	waterColorEffects();
+
 	createMatrices();
 
 	displayObj();
@@ -186,13 +196,10 @@ void myKeyboard(unsigned char key, int x, int y) {
 void keyCallback(int key, int x, int y) {
 	switch (key) {
 	case 100: // left
-		inc -= 0.1f;
 		break;
 	case 102: // right
-		inc += 0.1f;
 		break;
 	}
-	std::cout << inc << std::endl;
 	glutPostRedisplay();
 	myDisplay();
 }
@@ -254,11 +261,11 @@ int main(int argc, char** argv) {
 	// load teapot
 	bool success = mesh.LoadFromFileObj("lion/Loewe_C.obj");
 
-	// cy::Vec3f textureColor = cy::Vec3f(mesh.M(0).Kd[0], mesh.M(0).Kd[1], mesh.M(0).Kd[2]);
-	// objProgram["color"] = textureColor;
+	cy::Vec3f textureColor = cy::Vec3f(mesh.M(0).Kd[0], mesh.M(0).Kd[1], mesh.M(0).Kd[2]);
+	objProgram["color"] = textureColor;
 
 	// decode
-	if (lodepng::decode(image, texWidth, texHeight, "wood.png"))
+	if (lodepng::decode(image, texWidth, texHeight, "lion/Loewe_C_Loewe_O_Material_u1_v1.png"))
 		return 0;
 
 	if (!objProgram.BuildFiles("shader.vert", "shader.frag"))
